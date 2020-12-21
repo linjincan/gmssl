@@ -6,3 +6,6 @@ mkdir /usr/local/openssl
 ./config --prefix=/usr/local/openssl --openssldir=/usr/local/openssl -Wl,-rpath,/usr/local/openssl/lib shared
 make
 make install
+
+
+/usr/local/lib64
